@@ -1,5 +1,7 @@
-from openbb import obb
+from mylittleprinter.agent import Agent
+
+STARTING_CASH = 100
 
 if __name__ == "__main__":
     print("Running...")
-    print("Hello world")
+    agent = Agent(STARTING_CASH)
